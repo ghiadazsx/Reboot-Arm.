@@ -36,5 +36,37 @@ now here we have to install the ROS notice vision and create a Work space but fi
  > 4. `cd ~/catkin_ws/src` 
  > 5.  `catkin_make` > creates directories and runs cmake command for you and convenience tool for building code in a catkin workspace
  > 6.  `cd ~/catkin_ws/src`
+ ### install the package of the Arm 
+so we need to install the reboot arm package from [Smart Method github](https://github.com/smart-methods/arduino_robot_arm.git ) to work on and actually i faced the problem reboot publisher state and to solve the problem i'll explain it later on but first this after donig ths commend which’s 
 
+`git clone https://github.com/smart-methods/arduino_robot_arm.git ` 
+
+`cd ~/catkin_ws`
+
+`rosdep install --from-paths src --ignore-src -r -y`
+
+`sudo apt-get install ros-noetic-moveit`
+
+`sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui`
+
+`sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher`
+
+`sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control`
+
+`sudo nano ~/.bashrc`
+
+*go to the end of file*
+`source /home/ghiada/catkin_wrksps/devel/setup.bash`
+*then to get back to the terminal press*
+ctrl + o
+### Before lunch the robot arm to avoid the state publisher 
+1. go to the folder scr
+2. then arduino_robot_arm folder
+3. robot_arm_pkg folder
+4. Check_motor.lunch 
+5. go to compin joint values 
+6. change the type to robot_state_publisher
+### Congratulations I almost finished ✅ 
+open the terminal writ this down  
+roslaunch robot_arm_pkg check_motors.launch
 
