@@ -69,7 +69,9 @@ ctrl + o
 ### Congratulations I almost finished ✅ 
 open the terminal writ this down  
 roslaunch robot_arm_pkg check_motors.launch
-## launching the arm 🦾🚀
+# launching the arm 🦾🚀
 ![arm](https://user-images.githubusercontent.com/40144145/122835752-a319d180-d2f9-11eb-90ac-8ab68d2d1020.PNG)
-## base joint 
+## Base joint 
 ![arm_base_joint](https://user-images.githubusercontent.com/40144145/122843017-242b9580-d307-11eb-9c7a-b2fb04a90798.png)
+## Shoulder 
+![untitled2](https://user-images.githubusercontent.com/40144145/122843403-09a5ec00-d308-11eb-95d8-ce39d49599a8.png)
