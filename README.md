@@ -71,3 +71,5 @@ open the terminal writ this down
 roslaunch robot_arm_pkg check_motors.launch
 ## launching the arm 🦾🚀
 ![arm](https://user-images.githubusercontent.com/40144145/122835752-a319d180-d2f9-11eb-90ac-8ab68d2d1020.PNG)
+## base joint 
+![arm_base_joint](https://user-images.githubusercontent.com/40144145/122843017-242b9580-d307-11eb-9c7a-b2fb04a90798.png)
