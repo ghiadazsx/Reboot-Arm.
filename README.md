@@ -75,3 +75,8 @@ roslaunch robot_arm_pkg check_motors.launch
 ![arm_base_joint](https://user-images.githubusercontent.com/40144145/122843017-242b9580-d307-11eb-9c7a-b2fb04a90798.png)
 ## Shoulder 
 ![untitled2](https://user-images.githubusercontent.com/40144145/122843403-09a5ec00-d308-11eb-95d8-ce39d49599a8.png)
+## elbow 
+![untitled3](https://user-images.githubusercontent.com/40144145/122843546-60132a80-d308-11eb-806a-73f4cb5d70b7.png)
+## wrist 
+![untitled4](https://user-images.githubusercontent.com/40144145/122843560-6a352900-d308-11eb-90c8-19c1965e2e2f.png)
+
