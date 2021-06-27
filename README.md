@@ -27,7 +27,7 @@ to create and manage your own ROS workspaces because there are various tools and
 
   3.`rosdep update`
       The source of rosdep key entries are maintained on rosdistro repository and frequently updated.
-### Creat a work space ⚡️
+### Create work space ⚡️
 Here we have to install some tools from notice vision to launch the arm 🦾 and also create a workspace called catkin but first let me explain what catkin is
 ##### Catkin
   : catkin combines CMake macros and Python scripts to provide some functionality on top of CMake's normal workflow
